@@ -98,7 +98,7 @@ bool isLeapYear(int year) {
 }
 
 
-/*int daysInMonth(int month, int year) {
+int daysInMonth(int month, int year) {
 	switch (month) {
 		case 1: return 31; break;
 		case 2: if (isLeapYear(year)) { return 29; } else { return 28; } break;
@@ -116,7 +116,7 @@ bool isLeapYear(int year) {
 }
 
 
-int dayOfWeek(int month, int day, int year) {
+/*int dayOfWeek(int month, int day, int year) {
 	int usableMonth;
 	int usableYear;
 	int weekDay;
