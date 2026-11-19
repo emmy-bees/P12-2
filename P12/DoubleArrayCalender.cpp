@@ -116,7 +116,7 @@ int daysInMonth(int month, int year) {
 }
 
 
-/*int dayOfWeek(int month, int day, int year) {
+int dayOfWeek(int month, int day, int year) {
 	int usableMonth;
 	int usableYear;
 	int weekDay;
@@ -131,4 +131,4 @@ int daysInMonth(int month, int year) {
 	}
 
 	return weekDay = (day + (((usableMonth + 1) * 26) / 10) + usableYear + (usableYear / 4) + (6 * (usableYear / 100)) + (usableYear / 400)) % 7;
-} */
+} 
